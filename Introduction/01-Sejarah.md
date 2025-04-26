@@ -1,137 +1,103 @@
-# Perjalanan Ikonik Bahasa Pemrograman
+# Perjalanan Ikonik Bahasa Pemrograman: Java
 
-Java, sebuah bahasa pemrograman yang lahir dari ide sederhana namun visioner, telah menjadi salah satu pilar utama dunia teknologi sejak pertama kali diperkenalkan. Dari proyek kecil di Sun Microsystems hingga menjadi bahasa yang mendukung aplikasi global, mari kita jelajahi sejarah menarik Java dan bagaimana ia membentuk dunia pemrograman modern.
+![Java Logo](URL_TO_IMAGE/java_logo.png)
+
+Java adalah sebuah bahasa pemrograman yang berawal dari ide sederhana namun visioner. Sejak pertama kali diperkenalkan, Java telah menjadi pilar utama dalam dunia teknologi. Dari proyek kecil di Sun Microsystems hingga menjadi salah satu bahasa yang mendukung aplikasi global. Mari kita telusuri perjalanan sejarah Java dan dampaknya pada dunia pemrograman modern.
 
 ---
 
 ## Awal Mula: The Green Project (1991)
 
-Pada tahun **1991**, sebuah tim di Sun Microsystems yang disebut **"The Green Project"** memulai langkah awal pengembangan Java. Dipimpin oleh **James Gosling**, bersama **Patrick Naughton** dan **Mike Sheridan**, proyek ini bertujuan menciptakan bahasa pemrograman yang inovatif. Awalnya, bahasa ini dinamakan **"Oak"**, terinspirasi dari pohon oak di dekat kantor Gosling. Namun, karena konflik merek dagang, nama tersebut diubah menjadi **"Java"**, mengacu pada kopi yang menjadi teman setia para pengembang.
+![The Green Project](URL_TO_IMAGE/green_project.jpg){: style="width: 100%; height: auto;" }
 
-> **Fun Fact**: Nama "Java" dipilih karena kecintaan tim pada kopi, sebuah sentuhan personal yang kini jadi ikon teknologi!Sejarah Java: Perjalanan Ikonik Bahasa Pemrograman
->
-> Java, sebuah bahasa pemrograman yang lahir dari ide sederhana namun visioner, telah menjadi salah satu pilar utama dunia teknologi sejak pertama kali diperkenalkan. Dari proyek kecil di Sun Microsystems hingga menjadi bahasa yang mendukung aplikasi global, mari kita jelajahi sejarah menarik Java dan bagaimana ia membentuk dunia pemrograman modern.
->
-> ---
->
-> ## Awal Mula: The Green Project (1991)
->
-> Pada tahun **1991**, sebuah tim di Sun Microsystems yang disebut **"The Green Project"** memulai langkah awal pengembangan Java. Dipimpin oleh **James Gosling**, bersama **Patrick Naughton** dan **Mike Sheridan**, proyek ini bertujuan menciptakan bahasa pemrograman yang inovatif. Awalnya, bahasa ini dinamakan **"Oak"**, terinspirasi dari pohon oak di dekat kantor Gosling. Namun, karena konflik merek dagang, nama tersebut diubah menjadi **"Java"**, mengacu pada kopi yang menjadi teman setia para pengembang.
->
-> > **Fun Fact**: Nama "Java" dipilih karena kecintaan tim pada kopi, sebuah sentuhan personal yang kini jadi ikon teknologi!
->
-> ---
->
-> ## Kelahiran Resmi: Java 1.0 (1995)
->
-> Setelah empat tahun pengembangan, Java resmi diluncurkan pada **1995**. Dengan motto **"write once, run anywhere" (WORA)**, Java dirancang untuk:
->
-> - **Sederhana**: Memudahkan pemrogram belajar dibandingkan bahasa kompleks seperti C++.
-> - **Portabel**: Berjalan di berbagai platform berkat **Java Virtual Machine (JVM)**.
-> - **Aman**: Fitur keamanan bawaan untuk melindungi aplikasi.
->
-> Peluncuran ini menandai awal revolusi pemrograman yang mengutamakan fleksibilitas dan keandalan.
->
-> ---
->
-> ## Evolusi Java: Tonggak Penting
->
-> Java terus berkembang sejak debutnya, membuktikan relevansinya di berbagai era teknologi:
->
-> - **1996**: JavaSoft dibentuk untuk memajukan teknologi Java.
-> - **1997**: Pengenalan JavaBeans dan JDBC untuk aplikasi enterprise.
-> - **2000**: Peluncuran **Java EE (Enterprise Edition)**, memperkuat posisi Java di dunia bisnis.
-> - **2006**: Java menjadi open-source di bawah lisensi GPL oleh Sun Microsystems.
-> - **2010**: Oracle mengakuisisi Sun, melanjutkan pengembangan Java.
->
-> Saat ini, Java mendukung aplikasi web, mobile (terutama Android), hingga sistem enterprise berskala besar.
->
-> ---
->
-> ## Varian Platform Java
->
-> Java hadir dalam beberapa edisi yang disesuaikan dengan kebutuhan berbeda:
->
-> - **Java SE (Standard Edition)**: Untuk aplikasi desktop dan pengembangan dasar.
-> - **Java EE (Enterprise Edition)**: Dilengkapi API seperti servlets, JPA, dan JMS untuk aplikasi enterprise.
-> - **Java ME (Micro Edition)**: Didesain untuk perangkat mobile dan embedded dengan sumber daya terbatas.
->
-> ---
->
-> ## Komponen Utama Platform Java
->
-> Untuk memahami cara kerja Java, kenali tiga elemen kuncinya:
->
-> 1. **JDK (Java Development Kit)**: Paket lengkap untuk pengembang, berisi compiler (javac), debugger, dan alat lainnya.
-> 2. **JRE (Java Runtime Environment)**: Lingkungan runtime untuk menjalankan aplikasi, mencakup JVM dan library standar.
-> 3. **JVM (Java Virtual Machine)**: Mesin virtual yang mengeksekusi bytecode Java, mengatur garbage collection, keamanan, dan performa.
->
-> ---
->
-> ## Mengapa Java Layak Dipelajari?
->
-> Sejarah Java bukan sekadar cerita masa lalu, tetapi cerminan dampaknya pada teknologi modern:
->
-> - **Portabilitas**: JVM memungkinkan kode berjalan di mana saja.
-> - **Keandalan**: Fitur seperti garbage collection dan multithreading menjadikannya pilihan utama.
-> - **Komunitas Besar**: Dukungan luas dan dokumentasi lengkap memudahkan pembelajaran.
+Pada tahun 1991, sebuah tim di Sun Microsystems memulai sebuah proyek ambisius yang disebut "The Green Project". Tim ini dipimpin oleh James Gosling, bersama dengan Patrick Naughton dan Mike Sheridan. Tujuan mereka sederhana: menciptakan sebuah bahasa pemrograman yang dapat digunakan di berbagai perangkat.
+
+Awalnya, bahasa ini dinamakan "Oak", terinspirasi dari pohon oak yang ada di dekat kantor Gosling. Namun, karena masalah merek dagang, nama tersebut diubah menjadi "Java", yang berakar dari kecintaan tim terhadap kopi.
+
+> Menarik: Nama Java mengacu pada kopi Java. Kopi adalah teman setia para pengembang dalam menjalani hari-hari mereka yang produktif.
 
 ---
 
 ## Kelahiran Resmi: Java 1.0 (1995)
 
-Setelah empat tahun pengembangan, Java resmi diluncurkan pada **1995**. Dengan motto **"write once, run anywhere" (WORA)**, Java dirancang untuk:
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+    <img src="URL_TO_IMAGE/java_1.0.jpg" style="width: 45%; margin-right: 10px;" alt="Java 1.0">
+    <img src="URL_TO_IMAGE/java_wora.jpg" style="width: 45%;" alt="Write Once, Run Anywhere">
+</div>
 
-- **Sederhana**: Memudahkan pemrogram belajar dibandingkan bahasa kompleks seperti C++.
-- **Portabel**: Berjalan di berbagai platform berkat **Java Virtual Machine (JVM)**.
-- **Aman**: Fitur keamanan bawaan untuk melindungi aplikasi.
+Setelah melalui perjalanan panjang, Java akhirnya diluncurkan secara resmi pada tahun 1995. Java dirancang dengan filosofi "Write Once, Run Anywhere" (WORA), memungkinkan kode dapat berjalan di berbagai platform tanpa perubahan besar.
 
-Peluncuran ini menandai awal revolusi pemrograman yang mengutamakan fleksibilitas dan keandalan.
+Java memiliki beberapa keunggulan utama:
 
----
+- Sederhana: Lebih mudah dipelajari dibandingkan C++.
+- Portabel: Berkat Java Virtual Machine (JVM), kode Java dapat berjalan di berbagai platform.
+- Aman: Fitur bawaan untuk menjaga keamanan aplikasi.
 
-## Evolusi Java: Tonggak Penting
-
-Java terus berkembang sejak debutnya, membuktikan relevansinya di berbagai era teknologi:
-
-- **1996**: JavaSoft dibentuk untuk memajukan teknologi Java.
-- **1997**: Pengenalan JavaBeans dan JDBC untuk aplikasi enterprise.
-- **2000**: Peluncuran **Java EE (Enterprise Edition)**, memperkuat posisi Java di dunia bisnis.
-- **2006**: Java menjadi open-source di bawah lisensi GPL oleh Sun Microsystems.
-- **2010**: Oracle mengakuisisi Sun, melanjutkan pengembangan Java.
-
-Saat ini, Java mendukung aplikasi web, mobile (terutama Android), hingga sistem enterprise berskala besar.
+Peluncuran Java 1.0 menjadi awal dari revolusi bahasa pemrograman yang fleksibel dan andal.
 
 ---
 
-## Varian Platform Java
+## Tonggak Penting dalam Evolusi Java
 
-Java hadir dalam beberapa edisi yang disesuaikan dengan kebutuhan berbeda:
+![Java Evolution](URL_TO_IMAGE/java_evolution.png)
 
-- **Java SE (Standard Edition)**: Untuk aplikasi desktop dan pengembangan dasar.
-- **Java EE (Enterprise Edition)**: Dilengkapi API seperti servlets, JPA, dan JMS untuk aplikasi enterprise.
-- **Java ME (Micro Edition)**: Didesain untuk perangkat mobile dan embedded dengan sumber daya terbatas.
+Java terus berkembang dan mencatatkan beberapa momen penting sejak peluncurannya:
 
----
+1. 1996: JavaSoft dibentuk untuk mengembangkan teknologi Java lebih lanjut.
+2. 1997: Pengenalan JavaBeans dan JDBC, memperluas kemampuan Java untuk aplikasi enterprise.
+3. 2000: Rilis Java EE (Enterprise Edition) untuk mendukung aplikasi bisnis berukuran besar.
+4. 2006: Sun Microsystems merilis Java sebagai open-source di bawah lisensi GPL.
+5. 2010: Oracle mengakuisisi Sun Microsystems, membawa Java ke era baru pengembangan.
 
-## Komponen Utama Platform Java
-
-Untuk memahami cara kerja Java, kenali tiga elemen kuncinya:
-
-1. **JDK (Java Development Kit)**: Paket lengkap untuk pengembang, berisi compiler (`javac`), debugger, dan alat lainnya.
-2. **JRE (Java Runtime Environment)**: Lingkungan runtime untuk menjalankan aplikasi, mencakup JVM dan library standar.
-3. **JVM (Java Virtual Machine)**: Mesin virtual yang mengeksekusi bytecode Java, mengatur garbage collection, keamanan, dan performa.
+Saat ini, Java mendukung aplikasi web, mobile (termasuk Android), hingga sistem enterprise yang kompleks.
 
 ---
 
-## Mengapa Java Layak Dipelajari?
+## Platform Java: Varian yang Dihadirkan
 
-Sejarah Java bukan sekadar cerita masa lalu, tetapi cerminan dampaknya pada teknologi modern:
-
-- **Portabilitas**: JVM memungkinkan kode berjalan di mana saja.
-- **Keandalan**: Fitur seperti garbage collection dan multithreading menjadikannya pilihan utama.
-- **Komunitas Besar**: Dukungan luas dan dokumentasi lengkap memudahkan pembelajaran.
+<div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
+    <div style="flex: 1; text-align: center;">
+        <img src="URL_TO_IMAGE/java_se.jpg" style="width: 80%;" alt="Java SE">
+        <p><strong>Java SE</strong>: Digunakan untuk pengembangan aplikasi desktop dan pemrograman dasar.</p>
+    </div>
+    <div style="flex: 1; text-align: center;">
+        <img src="URL_TO_IMAGE/java_ee.jpg" style="width: 80%;" alt="Java EE">
+        <p><strong>Java EE</strong>: Dirancang untuk aplikasi web dan sistem enterprise berskala besar.</p>
+    </div>
+    <div style="flex: 1; text-align: center;">
+        <img src="URL_TO_IMAGE/java_me.jpg" style="width: 80%;" alt="Java ME">
+        <p><strong>Java ME</strong>: Mendukung perangkat mobile dan embedded dengan sumber daya terbatas.</p>
+    </div>
+</div>
 
 ---
 
-**Selanjutnya**: Pelajari cara menginstal Java di Arch Linux di 02-Setup.md.
+## Komponen Utama dalam Ekosistem Java
+
+![Java Ecosystem](URL_TO_IMAGE/java_ecosystem.png)
+
+Dalam ekosistem Java, terdapat tiga komponen utama yang saling terintegrasi:
+
+1. JDK (Java Development Kit): Suite lengkap untuk pengembangan, termasuk compiler (`javac`), debugger, dan berbagai alat lain.
+2. JRE (Java Runtime Environment): Lingkungan yang menyediakan library dan JVM untuk menjalankan aplikasi Java.
+3. JVM (Java Virtual Machine): Mesin virtual yang menjalankan bytecode, mengelola memori, dan memastikan keamanan aplikasi.
+
+---
+
+## Mengapa Belajar Java?
+
+![Learning Java](URL_TO_IMAGE/learning_java.jpg)
+
+Java adalah salah satu bahasa pemrograman paling populer di dunia, menawarkan banyak keuntungan:
+
+- Portabilitas: Berkat JVM, kode Java dapat berjalan di berbagai sistem operasi.
+- Keandalan: Fitur seperti garbage collection dan multithreading memberikan performa yang stabil.
+- Komunitas Besar: Komunitas global pengembang Java menyediakan banyak dokumentasi dan sumber daya pembelajaran.
+
+Java bukan hanya tentang sejarah, tetapi juga tentang relevansinya dalam teknologi masa kini dan masa depan.
+
+---
+
+## Apa Selanjutnya?
+
+Jika Anda tertarik untuk mulai menggunakan Java, silakan pelajari cara menginstalnya di Arch Linux dengan panduan lengkap di dokumen [02-Setup.md](02-Setup.md).
