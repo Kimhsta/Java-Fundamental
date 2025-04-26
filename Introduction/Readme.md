@@ -2,8 +2,7 @@
 
 Bab ini memperkenalkan 3 dasar utama:
 
-- [Sejarah Java](Sejarah/README.md)
-- [Ekosistem Java](Ekosistem/README.md)
-- [Persiapan Setup Java](Setup/README.md)
+- [Sejarah Java](01-Sejarah.md)
+- [Persiapan Setup Java](02-Setup.md)
 
 Memahami ketiga hal ini akan membantumu membangun dasar kuat sebelum lanjut ke tahap berikutnya.
