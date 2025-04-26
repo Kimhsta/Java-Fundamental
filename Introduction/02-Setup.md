@@ -53,23 +53,3 @@ Kemudian muat ulang konfigurasi shell:
 source ~/.bashrc   # atau source ~/.zshrc
 ```
 
-## 5. Contoh Program "Hello, World!"
-
-1. Buat file `HelloWorld.java`:
-   ```java
-   public class HelloWorld {
-       public static void main(String[] args) {
-           System.out.println("Hello, World!");
-       }
-   }
-   ```
-2. Kompilasi:
-   ```bash
-   javac HelloWorld.java
-   ```
-3. Jalankan:
-   ```bash
-   java HelloWorld
-   ```
-
-Jika output menampilkan `Hello, World!`, lingkungan Java Anda telah terpasang dengan benar di Arch Linux!
