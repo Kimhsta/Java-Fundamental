@@ -1,6 +1,6 @@
 # Perjalanan Ikonik Bahasa Pemrograman: Java
 
-![Java Logo](URL_TO_IMAGE/java_logo.png)
+![Java Logo](https://img.icons8.com/3d-fluency/94/java-coffee-cup-logo.png)
 
 Java adalah sebuah bahasa pemrograman yang berawal dari ide sederhana namun visioner. Sejak pertama kali diperkenalkan, Java telah menjadi pilar utama dalam dunia teknologi. Dari proyek kecil di Sun Microsystems hingga menjadi salah satu bahasa yang mendukung aplikasi global. Mari kita telusuri perjalanan sejarah Java dan dampaknya pada dunia pemrograman modern.
 
@@ -8,7 +8,7 @@ Java adalah sebuah bahasa pemrograman yang berawal dari ide sederhana namun visi
 
 ## Awal Mula: The Green Project (1991)
 
-![The Green Project](URL_TO_IMAGE/green_project.jpg){: style="width: 100%; height: auto;" }
+![The Green Project](../Assets/The-Green.PNG)
 
 Pada tahun 1991, sebuah tim di Sun Microsystems memulai sebuah proyek ambisius yang disebut "The Green Project". Tim ini dipimpin oleh James Gosling, bersama dengan Patrick Naughton dan Mike Sheridan. Tujuan mereka sederhana: menciptakan sebuah bahasa pemrograman yang dapat digunakan di berbagai perangkat.
 
@@ -21,8 +21,8 @@ Awalnya, bahasa ini dinamakan "Oak", terinspirasi dari pohon oak yang ada di dek
 ## Kelahiran Resmi: Java 1.0 (1995)
 
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-    <img src="URL_TO_IMAGE/java_1.0.jpg" style="width: 45%; margin-right: 10px;" alt="Java 1.0">
-    <img src="URL_TO_IMAGE/java_wora.jpg" style="width: 45%;" alt="Write Once, Run Anywhere">
+    <img src="../Assets/java_1.0.jpg" style="width: 45%; margin-right: 10px;" alt="Java 1.0">
+    <img src="../Assets/java_wora.png" style="width: 45%;" alt="Write Once, Run Anywhere">
 </div>
 
 Setelah melalui perjalanan panjang, Java akhirnya diluncurkan secara resmi pada tahun 1995. Java dirancang dengan filosofi "Write Once, Run Anywhere" (WORA), memungkinkan kode dapat berjalan di berbagai platform tanpa perubahan besar.
@@ -39,7 +39,7 @@ Peluncuran Java 1.0 menjadi awal dari revolusi bahasa pemrograman yang fleksibel
 
 ## Tonggak Penting dalam Evolusi Java
 
-![Java Evolution](URL_TO_IMAGE/java_evolution.png)
+![Java Evolution](../Assets/Evolution.png)
 
 Java terus berkembang dan mencatatkan beberapa momen penting sejak peluncurannya:
 
@@ -57,15 +57,15 @@ Saat ini, Java mendukung aplikasi web, mobile (termasuk Android), hingga sistem 
 
 <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
     <div style="flex: 1; text-align: center;">
-        <img src="URL_TO_IMAGE/java_se.jpg" style="width: 80%;" alt="Java SE">
+        <img src="../Assets/Java-SE.png" style="width: 80%;" alt="Java SE">
         <p><strong>Java SE</strong>: Digunakan untuk pengembangan aplikasi desktop dan pemrograman dasar.</p>
     </div>
     <div style="flex: 1; text-align: center;">
-        <img src="URL_TO_IMAGE/java_ee.jpg" style="width: 80%;" alt="Java EE">
+        <img src="../Assets/java.ee.jpg" style="width: 80%;" alt="Java EE">
         <p><strong>Java EE</strong>: Dirancang untuk aplikasi web dan sistem enterprise berskala besar.</p>
     </div>
     <div style="flex: 1; text-align: center;">
-        <img src="URL_TO_IMAGE/java_me.jpg" style="width: 80%;" alt="Java ME">
+        <img src="../Assets/java-me.png" style="width: 80%;" alt="Java ME">
         <p><strong>Java ME</strong>: Mendukung perangkat mobile dan embedded dengan sumber daya terbatas.</p>
     </div>
 </div>
@@ -74,7 +74,7 @@ Saat ini, Java mendukung aplikasi web, mobile (termasuk Android), hingga sistem 
 
 ## Komponen Utama dalam Ekosistem Java
 
-![Java Ecosystem](URL_TO_IMAGE/java_ecosystem.png)
+![Java Ecosystem](../Assets/ecosistyem.png)
 
 Dalam ekosistem Java, terdapat tiga komponen utama yang saling terintegrasi:
 
