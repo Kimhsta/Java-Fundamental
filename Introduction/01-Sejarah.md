@@ -86,8 +86,6 @@ Dalam ekosistem Java, terdapat tiga komponen utama yang saling terintegrasi:
 
 ## Mengapa Belajar Java?
 
-![Learning Java](URL_TO_IMAGE/learning_java.jpg)
-
 Java adalah salah satu bahasa pemrograman paling populer di dunia, menawarkan banyak keuntungan:
 
 - Portabilitas: Berkat JVM, kode Java dapat berjalan di berbagai sistem operasi.
