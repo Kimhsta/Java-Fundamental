@@ -1,6 +1,6 @@
 # 02 - Tipe Data Number
 
-## Jenis Tipe Data Number di Java
+#### **Jenis Tipe Data Number di Java**
 
 Java menyediakan beberapa tipe data numerik dasar:
 
