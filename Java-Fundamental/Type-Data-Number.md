@@ -7,7 +7,7 @@ Java menyediakan beberapa tipe data numerik dasar:
 - Integer Number (Bilangan Bulat)
 - Floating Poin Number (Bilangan Pecahan/Desimal)
 
-# Integer Number
+## **Integer Number**
 
 | Tipe Data | Ukuran | Nilai Minimum              | Nilai Maksimum            |
 | :-------- | :----- | :------------------------- | :------------------------ |
@@ -16,20 +16,17 @@ Java menyediakan beberapa tipe data numerik dasar:
 | `int`     | 4 byte | -2,147,483,648             | 2,147,483,647             |
 | `long`    | 8 byte | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807 |
 
-# Floating Point Number
-
-| Tipe Data | Ukuran | Nilai Minimum | Nilai Maksimum | Default |
-| :-------- | :----- | :------------ | :------------- | ------- |
-| `float`   | 4 byte | ~±1.4E-45     | ~±3.4E+38      | 0.0     |
-| `double`  | 8 byte | ~±4.9E-324    | ~±1.7E+308     | 0.0     |
-
-## Contoh Penggunaan Tipe Data Number
+## Contoh:
 
 ```java
-public class NumberExample {
+public class IntegerNUmber {
     public static void main(String[] args) {
-        int angka = 100;
-        
+        byte iniByte = 100;
+        short iniShort = 1000;
+        int angka = 10000000;
+        long iniLong = 1000000000;
+        long iniLong2 = 1000000000L; //Khusus Long make L
+
         double desimal = 99.99;
 
         System.out.println(angka);
@@ -41,7 +38,42 @@ public class NumberExample {
 **Output:**
 
 ```
-100
+10000000
+99.99
+```
+
+---
+
+## **Floating Point Number**
+
+| Tipe Data | Ukuran | Nilai Minimum | Nilai Maksimum | Default |
+| :-------- | :----- | :------------ | :------------- | ------- |
+| `float`   | 4 byte | ~±1.4E-45     | ~±3.4E+38      | 0.0     |
+| `double`  | 8 byte | ~±4.9E-324    | ~±1.7E+308     | 0.0     |
+
+## Contoh:
+
+```java
+public class IntegerNUmber {
+    public static void main(String[] args) {
+        byte iniByte = 100;
+        short iniShort = 1000;
+        int angka = 10000000;
+        long iniLong = 1000000000;
+        long iniLong2 = 1000000000L; //Khusus Long make L
+
+        double desimal = 99.99;
+
+        System.out.println(angka);
+        System.out.println(desimal);
+    }
+}
+```
+
+**Output:**
+
+```
+10000000
 99.99
 ```
 
