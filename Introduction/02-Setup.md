@@ -53,3 +53,6 @@ Kemudian muat ulang konfigurasi shell:
 source ~/.bashrc   # atau source ~/.zshrc
 ```
 
+---
+
+Mau mulai?[Java Fundamental](Readme.md)
