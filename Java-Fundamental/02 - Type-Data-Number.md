@@ -54,18 +54,13 @@ public class IntegerNUmber {
 ## Contoh:
 
 ```java
-public class IntegerNUmber {
+public class IntegerNumber {
     public static void main(String[] args) {
-        byte iniByte = 100;
-        short iniShort = 1000;
-        int angka = 10000000;
-        long iniLong = 1000000000;
-        long iniLong2 = 1000000000L; //Khusus Long make L
+        float iniFloat = 10.10F;
+        double iniDouble =10.10;
 
-        double desimal = 99.99;
-
-        System.out.println(angka);
-        System.out.println(desimal);
+        System.out.println(iniFloat);
+        System.out.println(iniDouble);
     }
 }
 ```
@@ -73,24 +68,24 @@ public class IntegerNUmber {
 **Output:**
 
 ```
-10000000
-99.99
+10.1
+10.1
 ```
 
 ---
 
-## Literal Bilangan di Java
+## Literal
 
 ```java
-public class LiteralExample {
+public class Literal {
     public static void main(String[] args) {
-        int binary = 0b1010; // 10 dalam desimal
-        int octal = 012;     // 10 dalam desimal
-        int hexa = 0xA;      // 10 dalam desimal
+        int decimalInt = 25; // Pecahan biasa
+        int hexaDecimal = 0xFFFFF;     // Pecahan 16
+        int binaryDecimal = 0b10101010;
 
-        System.out.println(binary);
-        System.out.println(octal);
-        System.out.println(hexa);
+        System.out.println(decimalInt);
+        System.out.println(hexaDecimal);
+        System.out.println(binaryDecimal);
     }
 }
 ```
@@ -98,26 +93,25 @@ public class LiteralExample {
 **Output:**
 
 ```
-10
-10
-10
+25
+1048575
+170
 ```
 
 ---
 
-## Casting Number
+## Underscore
 
 ```java
-public class CastingExample {
+public class Underscode {
     public static void main(String[] args) {
-        int angkaInt = 10;
-        double angkaDouble = angkaInt; // otomatis
+        long amount = 1_000_000_000;
+        int sum = 60_000_000;
 
-        double nilai = 9.7;
-        int nilaiInt = (int) nilai; // manual
 
-        System.out.println(angkaDouble);
-        System.out.println(nilaiInt);
+
+        System.out.println(amount);
+        System.out.println(sum);
     }
 }
 ```
@@ -125,10 +119,20 @@ public class CastingExample {
 **Output:**
 
 ```
-10.0
-9
+1000000000
+60000000
 ```
 
 ---
 
-# Selesai untuk Tipe Data Number ✅
+# Konversi Tipe Data Number
+
+Dalam Java, konversi antar tipe data number dibagi menjadi dua jenis:
+
+- **Widening Casting (Otomatis)**  
+  Konversi dari tipe data kecil ke tipe data yang lebih besar:  
+  `byte → short → int → long → float → double`
+
+- **Narrowing Casting (Manual)**  
+  Konversi dari tipe data besar ke tipe data yang lebih kecil:  
+  `double → float → long → int → char → short → byte`
