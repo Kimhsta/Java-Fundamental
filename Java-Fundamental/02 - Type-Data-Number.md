@@ -21,6 +21,7 @@ Java menyediakan beberapa tipe data numerik dasar:
 ```java
 public class IntegerNUmber {
     public static void main(String[] args) {
+
         byte iniByte = 100;
         short iniShort = 1000;
         int angka = 10000000;
@@ -56,6 +57,7 @@ public class IntegerNUmber {
 ```java
 public class IntegerNumber {
     public static void main(String[] args) {
+
         float iniFloat = 10.10F;
         double iniDouble =10.10;
 
@@ -79,6 +81,7 @@ public class IntegerNumber {
 ```java
 public class Literal {
     public static void main(String[] args) {
+
         int decimalInt = 25; // Pecahan biasa
         int hexaDecimal = 0xFFFFF;     // Pecahan 16
         int binaryDecimal = 0b10101010;
@@ -105,10 +108,9 @@ public class Literal {
 ```java
 public class Underscode {
     public static void main(String[] args) {
+
         long amount = 1_000_000_000;
         int sum = 60_000_000;
-
-
 
         System.out.println(amount);
         System.out.println(sum);
@@ -123,16 +125,48 @@ public class Underscode {
 60000000
 ```
 
----
-
 # Konversi Tipe Data Number
 
 Dalam Java, konversi antar tipe data number dibagi menjadi dua jenis:
 
-- **Widening Casting (Otomatis)**  
-  Konversi dari tipe data kecil ke tipe data yang lebih besar:  
-  `byte → short → int → long → float → double`
+## **Widening Casting (Otomatis)**
 
-- **Narrowing Casting (Manual)**  
-  Konversi dari tipe data besar ke tipe data yang lebih kecil:  
-  `double → float → long → int → char → short → byte`
+Konversi dari tipe data kecil ke tipe data yang lebih besar:  
+ `byte → short → int → long → float → double`
+
+**Contoh:**
+`byte → short`
+
+```java
+public class konversiOtomatis {
+    public static void main(String[] args) {
+
+        byte iniByte = 10;
+        short iniShort = iniByte;
+
+        // Jangan sampai kena number overFlow
+        System.out.println(iniShort);
+    }
+}
+```
+
+## **Narrowing Casting (Manual)**
+
+Konversi dari tipe data besar ke tipe data yang lebih kecil:  
+ `double → float → long → int → char → short → byte`
+
+**Contoh:**
+`int → byte`
+
+```java
+public class konversiOtomatis {
+    public static void main(String[] args) {
+
+        // Jangan sampai kena number overFlow
+        int iniInt = 100; //1000 - Melebihi kapasitas
+        byte iniByte = (byte) iniInt;
+
+        System.out.println(iniByte);
+    }
+}
+```
