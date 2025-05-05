@@ -8,8 +8,8 @@
 ```java
 public class charExample {
     public static void main(String[] args) {
-        char huruf = 'A';            // literal karakter
-        char angka = '1';            // karakter angka
+        char huruf = 'A';            
+        char angka = '1';            
         char unicode = '\u03A9';    // karakter Unicode (Omega)
 
         System.out.println(huruf);
