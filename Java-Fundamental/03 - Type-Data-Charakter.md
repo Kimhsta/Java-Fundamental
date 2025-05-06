@@ -3,7 +3,7 @@
 **Pengertian**
 **Tipe data `char`** di Java digunakan untuk merepresentasikan satu karakter Unicode. Ukuran `char` adalah 2 byte (16-bit), sehingga dapat menampung kode Unicode dari `\u0000` hingga `\uFFFF` (0 hingga 65.535).
 
-## cContoh:
+## Contoh:
 
 ```java
 public class charExample {
